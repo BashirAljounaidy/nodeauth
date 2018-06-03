@@ -1,0 +1,31 @@
+install express library :
+npm istall -g express
+-----------------------
+install express generator :
+npm install -g express-generator
+-------------------------
+to put imoprtant files in projects you must to be in folder then write :
+express
+-------------------------
+istall and run git in my mac :::
+    1- istall git from wesite
+    2- configer it : 
+    $ git config --global user.name "Emma Paris"
+    $ git config --global user.email "eparis@atlassian.com"
+    3- git init ## initilazing the git project
+    4- git add . ## to add all files 
+    5- git status ## get status for files
+    6- git commit ## commit changes
+    7- git commit -m "second commit "   ##commit with notes
+    8- touch .gitignore ##file to put files name in it to be ignored
+    9- git branch <branc name> ## add branch to master
+    10- git chechout <branch name> ##got to branch
+    11- git merge <branch name>
+    12- git remote add origin <url> ## link it to website
+    13-  git remote -v ##check for the push 
+-----------------------------
+to install modules in the node files : 
+1- simply put name in package.json
+2- npm install <modul-name> --save 
+-----------------------------
+now in app.js 
