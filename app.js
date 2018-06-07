@@ -21,7 +21,8 @@ var app = express();
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
-
+// Handel File upload
+app.use(multer({dest;'./uploads'}));
 app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
@@ -48,3 +49,7 @@ app.use(function(err, req, res, next) {
 });
 
 module.exports = app;
+
+
+Mak$@merna123456
+97097396
